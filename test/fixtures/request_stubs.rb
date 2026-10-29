@@ -30,25 +30,21 @@ module RequestStubs
       with(query: {'format' => 'json'}).
       to_return(:body => File.open(File.expand_path(".", "test/fixtures/safety_ratings/blank.json")).read)
 
-      # FakeWeb.register_uri(:get, "https://webapi.nhtsa.gov/api/SafetyRatings/VehicleId/3832?format=json",
-      #   :content_type => "application/json",
-      #   :body => File.open(File.expand_path(".", "test/fixtures/safety_ratings/ratings.json")).read
-      # )
+    stub_request(:get, 'https://api.nhtsa.gov/SafetyRatings/VehicleId/3832').
+      with(query: {'format' => 'json'}).
+      to_return(:body => File.open(File.expand_path(".", "test/fixtures/safety_ratings/ratings.json")).read)
 
-      # FakeWeb.register_uri(:get, "https://webapi.nhtsa.gov/api/SafetyRatings/VehicleId/3834?format=json",
-      #   :content_type => "application/json",
-      #   :body => File.open(File.expand_path(".", "test/fixtures/safety_ratings/ratings.json")).read
-      # )
+    stub_request(:get, 'https://api.nhtsa.gov/SafetyRatings/VehicleId/3834').
+      with(query: {'format' => 'json'}).
+      to_return(:body => File.open(File.expand_path(".", "test/fixtures/safety_ratings/ratings.json")).read)
 
-      # FakeWeb.register_uri(:get, "https://webapi.nhtsa.gov/api/SafetyRatings/VehicleId/3881?format=json",
-      #   :content_type => "application/json",
-      #   :body => File.open(File.expand_path(".", "test/fixtures/safety_ratings/ratings.json")).read
-      # )
+    stub_request(:get, 'https://api.nhtsa.gov/SafetyRatings/VehicleId/3881').
+      with(query: {'format' => 'json'}).
+      to_return(:body => File.open(File.expand_path(".", "test/fixtures/safety_ratings/ratings.json")).read)
 
-      # FakeWeb.register_uri(:get, "https://webapi.nhtsa.gov/api/SafetyRatings/VehicleId/420?format=json",
-      #   :content_type => "application/json",
-      #   :body => File.open(File.expand_path(".", "test/fixtures/safety_ratings/ratings.json")).read
-      # )
+    stub_request(:get, 'https://api.nhtsa.gov/SafetyRatings/VehicleId/420').
+      with(query: {'format' => 'json'}).
+      to_return(:body => File.open(File.expand_path(".", "test/fixtures/safety_ratings/ratings.json")).read)
   end
 
   # recalls
