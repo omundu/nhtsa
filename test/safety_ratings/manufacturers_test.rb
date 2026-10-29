@@ -43,7 +43,7 @@ module SafetyRatings
         'LAND ROVER', 'LEXUS', 'LINCOLN', 'MAZDA', 'MERCEDES-BENZ', 'MERCURY', 'MINI', 'MITSUBISHI',
         'NISSAN', 'PONTIAC', 'PORSCHE', 'ROLLS-ROYCE', 'SAAB', 'SATURN', 'SUBARU', 'SUZUKI', 'TOYOTA',
         'VOLKSWAGEN', 'VOLVO'
-      ].map{ |manufacturer| "2007: #{manufacturer}" }
+      ].map{ |manufacturer| "2007 #{manufacturer}" }
 
       assert_equal manufacturer_names, Nhtsa::SafetyRatings::Manufacturers.new(2007).to_s
     end
