@@ -24,6 +24,8 @@ module Nhtsa
         models.join('\n')
       end
 
+      private
+
       def fetch_models_data
         JSON.parse(URI.open(url).read)['Results'].collect{|model| Model.new(@year, @manufacturer, model['Model'])}
       end
