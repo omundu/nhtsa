@@ -10,15 +10,13 @@ module RequestStubs
       with(query: {'format' => 'json'}).
       to_return(:body => File.open(File.expand_path(".", "test/fixtures/safety_ratings/manufacturers.json")).read)
 
-      # FakeWeb.register_uri(:get, "https://webapi.nhtsa.gov/api/SafetyRatings/1998/Mitsubishi?format=json",
-      #   :content_type => "application/json",
-      #   :body => File.open(File.expand_path(".", "test/fixtures/safety_ratings/models.json")).read
-      # )
+    stub_request(:get, 'https://api.nhtsa.gov/SafetyRatings/modelyear/2007/make/Mitsubishi').
+      with(query: {'format' => 'json'}).
+      to_return(:body => File.open(File.expand_path(".", "test/fixtures/safety_ratings/models.json")).read)
 
-      # FakeWeb.register_uri(:get, "https://webapi.nhtsa.gov/api/SafetyRatings/2015/Mitsubishi?format=json",
-      #   :content_type => "application/json",
-      #   :body => File.open(File.expand_path(".", "test/fixtures/safety_ratings/models.json")).read
-      # )
+    stub_request(:get, 'https://api.nhtsa.gov/SafetyRatings/modelyear/2007/make/Eagle').
+      with(query: {'format' => 'json'}).
+      to_return(:body => File.open(File.expand_path(".", "test/fixtures/safety_ratings/blank.json")).read)
 
       # FakeWeb.register_uri(:get, "https://webapi.nhtsa.gov/api/SafetyRatings/1998/Mitsubishi/Galant?format=json",
       #   :content_type => "application/json",

@@ -21,7 +21,7 @@ module Nhtsa
       end
 
       def to_s
-        "#{@year}: #{@manufacturer_name}"
+        "#{@year} #{@manufacturer_name}"
       end
 
     end
