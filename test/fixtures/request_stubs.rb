@@ -18,15 +18,17 @@ module RequestStubs
       with(query: {'format' => 'json'}).
       to_return(:body => File.open(File.expand_path(".", "test/fixtures/safety_ratings/blank.json")).read)
 
-      # FakeWeb.register_uri(:get, "https://webapi.nhtsa.gov/api/SafetyRatings/1998/Mitsubishi/Galant?format=json",
-      #   :content_type => "application/json",
-      #   :body => File.open(File.expand_path(".", "test/fixtures/safety_ratings/trims.json")).read
-      # )
+    stub_request(:get, 'https://api.nhtsa.gov/SafetyRatings/modelyear/2007/make/Mitsubishi/model/Galant').
+      with(query: {'format' => 'json'}).
+      to_return(:body => File.open(File.expand_path(".", "test/fixtures/safety_ratings/trim.json")).read)
 
-      # FakeWeb.register_uri(:get, "https://webapi.nhtsa.gov/api/SafetyRatings/2015/Mitsubishi/Lancer?format=json",
-      #   :content_type => "application/json",
-      #   :body => File.open(File.expand_path(".", "test/fixtures/safety_ratings/trims.json")).read
-      # )
+    stub_request(:get, 'https://api.nhtsa.gov/SafetyRatings/modelyear/2013/make/Mitsubishi/model/Lancer').
+      with(query: {'format' => 'json'}).
+      to_return(:body => File.open(File.expand_path(".", "test/fixtures/safety_ratings/trims.json")).read)
+
+    stub_request(:get, 'https://api.nhtsa.gov/SafetyRatings/modelyear/2007/make/Mitsubishi/model/Pajero').
+      with(query: {'format' => 'json'}).
+      to_return(:body => File.open(File.expand_path(".", "test/fixtures/safety_ratings/blank.json")).read)
 
       # FakeWeb.register_uri(:get, "https://webapi.nhtsa.gov/api/SafetyRatings/VehicleId/3832?format=json",
       #   :content_type => "application/json",
