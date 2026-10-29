@@ -76,12 +76,11 @@ module RequestStubs
       with(query: {'issueType' => 'c'}).
       to_return(:body => File.open(File.expand_path('.', 'test/fixtures/complaints/years.json')).read)
 
-  end
+    stub_request(:get, 'https://api.nhtsa.gov/products/vehicle/makes').
+      with(query: {'issueType' => 'c', 'modelYear' => 1998}).
+      to_return(:body => File.open(File.expand_path('.', 'test/fixtures/complaints/manufacturers.json')).read)
 
-  # FakeWeb.register_uri(:get, "https://webapi.nhtsa.gov/api/Complaints/vehicle/1998?format=json",
-  #   :content_type => "application/json",
-  #   :body => File.open(File.expand_path(".", "test/fixtures/complaints/manufacturers.json")).read
-  # )
+  end
 
   # FakeWeb.register_uri(:get, "https://webapi.nhtsa.gov/api/Complaints/vehicle/1998/Mitsubishi?format=json",
   #   :content_type => "application/json",
