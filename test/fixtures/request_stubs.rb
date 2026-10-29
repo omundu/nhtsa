@@ -1,15 +1,14 @@
 module RequestStubs
 
   def safety_ratings_webmocks
-    
+
     stub_request(:get, 'https://api.nhtsa.gov/SafetyRatings').
       with(query: {'format' => 'json'}).
       to_return(:body => File.open(File.expand_path('.', 'test/fixtures/safety_ratings/years.json')).read)
 
-      # FakeWeb.register_uri(:get, "https://webapi.nhtsa.gov/api/SafetyRatings/1998?format=json",
-      #   :content_type => "application/json",
-      #   :body => File.open(File.expand_path(".", "test/fixtures/safety_ratings/manufacturers.json")).read
-      # )
+    stub_request(:get, 'https://api.nhtsa.gov/SafetyRatings/modelyear/2007').
+      with(query: {'format' => 'json'}).
+      to_return(:body => File.open(File.expand_path(".", "test/fixtures/safety_ratings/manufacturers.json")).read)
 
       # FakeWeb.register_uri(:get, "https://webapi.nhtsa.gov/api/SafetyRatings/1998/Mitsubishi?format=json",
       #   :content_type => "application/json",
