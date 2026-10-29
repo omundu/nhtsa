@@ -1,6 +1,6 @@
 module Nhtsa
   module SafetyRatings
-    
+
     class Manufacturer
 
       def initialize(year, manufacturer_name)
@@ -21,7 +21,7 @@ module Nhtsa
       end
 
       def to_s
-        @manufacturer_name
+        "#{@year}: #{@manufacturer_name}"
       end
 
     end
