@@ -8,43 +8,43 @@ module RequestStubs
 
     stub_request(:get, 'https://api.nhtsa.gov/SafetyRatings/modelyear/2007').
       with(query: {'format' => 'json'}).
-      to_return(:body => File.open(File.expand_path(".", "test/fixtures/safety_ratings/manufacturers.json")).read)
+      to_return(:body => File.open(File.expand_path('.', 'test/fixtures/safety_ratings/manufacturers.json')).read)
 
     stub_request(:get, 'https://api.nhtsa.gov/SafetyRatings/modelyear/2007/make/Mitsubishi').
       with(query: {'format' => 'json'}).
-      to_return(:body => File.open(File.expand_path(".", "test/fixtures/safety_ratings/models.json")).read)
+      to_return(:body => File.open(File.expand_path('.', 'test/fixtures/safety_ratings/models.json')).read)
 
     stub_request(:get, 'https://api.nhtsa.gov/SafetyRatings/modelyear/2007/make/Eagle').
       with(query: {'format' => 'json'}).
-      to_return(:body => File.open(File.expand_path(".", "test/fixtures/safety_ratings/blank.json")).read)
+      to_return(:body => File.open(File.expand_path('.', 'test/fixtures/safety_ratings/blank.json')).read)
 
     stub_request(:get, 'https://api.nhtsa.gov/SafetyRatings/modelyear/2007/make/Mitsubishi/model/Galant').
       with(query: {'format' => 'json'}).
-      to_return(:body => File.open(File.expand_path(".", "test/fixtures/safety_ratings/trim.json")).read)
+      to_return(:body => File.open(File.expand_path('.', 'test/fixtures/safety_ratings/trim.json')).read)
 
     stub_request(:get, 'https://api.nhtsa.gov/SafetyRatings/modelyear/2013/make/Mitsubishi/model/Lancer').
       with(query: {'format' => 'json'}).
-      to_return(:body => File.open(File.expand_path(".", "test/fixtures/safety_ratings/trims.json")).read)
+      to_return(:body => File.open(File.expand_path('.', 'test/fixtures/safety_ratings/trims.json')).read)
 
     stub_request(:get, 'https://api.nhtsa.gov/SafetyRatings/modelyear/2007/make/Mitsubishi/model/Pajero').
       with(query: {'format' => 'json'}).
-      to_return(:body => File.open(File.expand_path(".", "test/fixtures/safety_ratings/blank.json")).read)
+      to_return(:body => File.open(File.expand_path('.', 'test/fixtures/safety_ratings/blank.json')).read)
 
     stub_request(:get, 'https://api.nhtsa.gov/SafetyRatings/VehicleId/3832').
       with(query: {'format' => 'json'}).
-      to_return(:body => File.open(File.expand_path(".", "test/fixtures/safety_ratings/ratings.json")).read)
+      to_return(:body => File.open(File.expand_path('.', 'test/fixtures/safety_ratings/ratings.json')).read)
 
     stub_request(:get, 'https://api.nhtsa.gov/SafetyRatings/VehicleId/3834').
       with(query: {'format' => 'json'}).
-      to_return(:body => File.open(File.expand_path(".", "test/fixtures/safety_ratings/ratings.json")).read)
+      to_return(:body => File.open(File.expand_path('.', 'test/fixtures/safety_ratings/ratings.json')).read)
 
     stub_request(:get, 'https://api.nhtsa.gov/SafetyRatings/VehicleId/3881').
       with(query: {'format' => 'json'}).
-      to_return(:body => File.open(File.expand_path(".", "test/fixtures/safety_ratings/ratings.json")).read)
+      to_return(:body => File.open(File.expand_path('.', 'test/fixtures/safety_ratings/ratings.json')).read)
 
     stub_request(:get, 'https://api.nhtsa.gov/SafetyRatings/VehicleId/420').
       with(query: {'format' => 'json'}).
-      to_return(:body => File.open(File.expand_path(".", "test/fixtures/safety_ratings/ratings.json")).read)
+      to_return(:body => File.open(File.expand_path('.', 'test/fixtures/safety_ratings/ratings.json')).read)
   end
 
   def recalls_webmock
