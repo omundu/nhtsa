@@ -70,12 +70,13 @@ module RequestStubs
       to_return(:body => File.open(File.expand_path('.', 'test/fixtures/recalls/campaign_recalls.json')).read)
   end
 
-  # Complaints
+  def complaints_webmock
 
-  # FakeWeb.register_uri(:get, "https://webapi.nhtsa.gov/api/Complaints/vehicle?format=json",
-  #   :content_type => "application/json",
-  #   :body => File.open(File.expand_path(".", "test/fixtures/complaints/years.json")).read
-  # )
+    stub_request(:get, 'https://api.nhtsa.gov/products/vehicle/modelYears').
+      with(query: {'issueType' => 'c'}).
+      to_return(:body => File.open(File.expand_path('.', 'test/fixtures/complaints/years.json')).read)
+
+  end
 
   # FakeWeb.register_uri(:get, "https://webapi.nhtsa.gov/api/Complaints/vehicle/1998?format=json",
   #   :content_type => "application/json",

@@ -1,13 +1,17 @@
 module Nhtsa
   module Complaints
+
     class Years
+
       def url
-        "#{BASE_URI}#{END_POINT}#{DEFAULT_PARAMS}"
+        "#{BASE_URI}#{END_POINT}/modelYears?#{COMPLAINT_PARAM}"
       end
 
       def years
-        JSON.parse(open(url).read)["Results"].collect{|year| year["ModelYear"]}
+        JSON.parse(URI.open(url).read)['results'].collect{|year| year['modelYear']}
       end
+
     end
+
   end
 end
