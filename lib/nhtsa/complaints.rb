@@ -1,14 +1,29 @@
-# http://webapi.nhtsa.gov/Default.aspx?Complaints/API/81
 # NHTSA's Office of Defects Investigation (ODI) - Complaints
+# https://api.nhtsa.gov/complaints/odinumber?odinumber={XXXXX}
+# https://api.nhtsa.gov/complaints/complaintsByVehicle?make=acura&model=rdx&modelYear=2012
+# https://api.nhtsa.gov/products/vehicle/{modelYears|makes|models}?{modelYear=2010&make=acura&}issueType=c
 
-require_relative "complaints/years"
-require_relative "complaints/manufacturers"
-require_relative "complaints/models"
-require_relative "complaints/complaints"
-require_relative "complaints/complaints_by_odi_number"
+require_relative 'complaints/years'
+require_relative 'complaints/manufacturers'
+require_relative 'complaints/models'
+require_relative 'complaints/complaints'
+require_relative 'complaints/complaints_by_odi_number'
 
 module Nhtsa
   module Complaints
-    END_POINT = "/Complaints/vehicle"
+    END_POINT = '/products/vehicle'
+    COMPLAINT_PARAM = 'issueType=c'
+    COMPLAINT_ENDPOINT = '/complaints/complaintsByVehicle'
+    COMPLAINT_ODI_ENDPOINT = '/complaints/odinumber'
   end
 end
+
+# https://api.nhtsa.gov/complaints/complaintsByVehicle?make=acura&model=rdx&modelYear=2012
+
+# https://api.nhtsa.gov/products/vehicle/modelYears?issueType=c
+# https://api.nhtsa.gov/products/vehicle/makes?modelYear=2021&issueType=c
+# https://api.nhtsa.gov/products/vehicle/models?modelYear=2010&make=acura&issueType=c
+
+# https://api.nhtsa.gov/complaints/complaintsByVehicle?make=acura&model=rdx&modelYear=2012
+
+# https://api.nhtsa.gov/complaints/odinumber?odinumber=11184030
