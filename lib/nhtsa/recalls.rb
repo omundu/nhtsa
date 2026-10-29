@@ -10,7 +10,7 @@ require_relative 'recalls/campaign_recalls'
 module Nhtsa
   module Recalls
     END_POINT = '/products/vehicle'
-    RECALL_PARAM = '?issueType=r'
+    RECALL_PARAM = 'issueType=r'
   end
 end
 

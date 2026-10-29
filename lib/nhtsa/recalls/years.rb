@@ -4,11 +4,11 @@ module Nhtsa
     class Years
       
       def url
-        "#{BASE_URI}#{END_POINT}/modelYears#{RECALL_PARAM}"
+        "#{BASE_URI}#{END_POINT}/modelYears?#{RECALL_PARAM}"
       end
 
       def years
-        @years ||= JSON.parse(URI.open(url).read)['Results'].collect{|year| year['ModelYear']}
+        @years ||= JSON.parse(URI.open(url).read)['results'].collect{ |year| year['modelYear'] }
       end
 
     end
