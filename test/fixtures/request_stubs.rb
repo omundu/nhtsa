@@ -65,11 +65,9 @@ module RequestStubs
       with(query: {'modelYear' => '1998', 'make' => 'Mitsubishi', 'model' => 'Galant'}).
       to_return(:body => File.open(File.expand_path('.', 'test/fixtures/recalls/recalls.json')).read)
 
-    # FakeWeb.register_uri(:get, "https://webapi.nhtsa.gov/api/Recalls/vehicle/CampaignNumber/12V176000?format=json",
-    #   :content_type => "application/json",
-    #   :body => File.open(File.expand_path(".", "test/fixtures/recalls/campaign_recalls.json")).read
-    # )
-
+    stub_request(:get, 'https://api.nhtsa.gov/recalls/campaignNumber').
+      with(query: {'campaignNumber' => '12V176000'}).
+      to_return(:body => File.open(File.expand_path('.', 'test/fixtures/recalls/campaign_recalls.json')).read)
   end
 
   # Complaints
