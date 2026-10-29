@@ -11,6 +11,7 @@ module Nhtsa
   module Recalls
     END_POINT = '/products/vehicle'
     RECALL_PARAM = 'issueType=r'
+    RECALL_ENDPOINT= '/recalls/recallsByVehicle'
   end
 end
 

@@ -10,4 +10,7 @@ class RecallsTest < Minitest::Test
     assert_equal 'issueType=r', ::Nhtsa::Recalls::RECALL_PARAM
   end
 
+  def test_that_it_has_thre_recall_endpoint
+    assert_equal '/', ::Nhtsa::Recalls::RECALL_ENDPOINT
+
 end
