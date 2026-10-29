@@ -45,6 +45,7 @@ module RequestStubs
     stub_request(:get, 'https://api.nhtsa.gov/SafetyRatings/VehicleId/420').
       with(query: {'format' => 'json'}).
       to_return(:body => File.open(File.expand_path('.', 'test/fixtures/safety_ratings/ratings.json')).read)
+
   end
 
   def recalls_webmock
@@ -68,6 +69,7 @@ module RequestStubs
     stub_request(:get, 'https://api.nhtsa.gov/recalls/campaignNumber').
       with(query: {'campaignNumber' => '12V176000'}).
       to_return(:body => File.open(File.expand_path('.', 'test/fixtures/recalls/campaign_recalls.json')).read)
+
   end
 
   def complaints_webmock
@@ -87,13 +89,12 @@ module RequestStubs
     stub_request(:get, 'https://api.nhtsa.gov/complaints/complaintsByVehicle').
       with(query: {'modelYear' => 1998, 'make' => 'BMW', 'model' => '318'}).
       to_return(:body => File.open(File.expand_path('.', 'test/fixtures/complaints/complaints.json')).read)
-      
-  end
+    
+    stub_request(:get, 'https://api.nhtsa.gov/complaints/odinumber').
+      with(query: {'odinumber' => 10457576}).
+      to_return(:body => File.open(File.expand_path('.', 'test/fixtures/complaints/complaints_by_odi_number.json')).read)
 
-  # FakeWeb.register_uri(:get, "https://webapi.nhtsa.gov/api/Complaints/vehicle/odinumber/10457576?format=json",
-  #   :content_type => "application/json",
-  #   :body => File.open(File.expand_path(".", "test/fixtures/complaints/complaints_by_odi_number.json")).read
-  # )
+  end
 
   # Civil Penalties
 
