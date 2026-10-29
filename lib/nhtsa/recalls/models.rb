@@ -1,18 +1,26 @@
 module Nhtsa
   module Recalls
+
     class Models
+
       def initialize(year, manufacturer)
         @year = year
-        @manufacturer = URI::encode(manufacturer)
+        @manufacturer = URI.encode_uri_component(manufacturer)
+      end
+
+      def manufacturer
+        @manufacturer
       end
 
       def url
-        "#{BASE_URI}#{END_POINT}/#{@year}/#{@manufacturer}#{DEFAULT_PARAMS}"
+        "#{BASE_URI}#{END_POINT}/models?modelYear=#{@year}&make=#{@manufacturer}&#{RECALL_PARAM}"
       end
 
       def models
-        JSON.parse(open(url).read)["Results"].collect{|model| model["Model"]}
+        JSON.parse(URI.open(url).read)['results'].collect{|model| model['model']}
       end
+
     end
+
   end
 end
