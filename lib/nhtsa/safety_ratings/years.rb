@@ -1,8 +1,10 @@
 module Nhtsa
   module SafetyRatings
+
     class Years
+
       def initialize
-        @years = JSON.parse(open(url).read)["Results"].collect{|year| Year.new(year["ModelYear"])}
+        @years = JSON.parse(URI.open(url).read)['Results'].collect{|year| Year.new(year['ModelYear'])}
       end
 
       def url
@@ -20,6 +22,8 @@ module Nhtsa
       def to_s
         @years.map(&:to_s)
       end
+
     end
+
   end
 end
