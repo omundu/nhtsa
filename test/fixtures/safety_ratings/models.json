@@ -1,8 +1,54 @@
 {
-  "Count":2,
-  "Message":"Results returned successfully",
-  "Results":[
-    {"ModelYear":1998,"Make":"MITSUBISHI","Model":"ECLIPSE","VehicleId":0},
-    {"ModelYear":1998,"Make":"MITSUBISHI","Model":"GALANT","VehicleId":0}
+  "Count": 8,
+  "Message": "Results returned successfully",
+  "Results": [
+    {
+      "ModelYear": 2007,
+      "Make": "MITSUBISHI",
+      "Model": "ECLIPSE",
+      "VehicleId": 0
+    },
+    {
+      "ModelYear": 2007,
+      "Make": "MITSUBISHI",
+      "Model": "ECLIPSE SPYDER",
+      "VehicleId": 0
+    },
+    {
+      "ModelYear": 2007,
+      "Make": "MITSUBISHI",
+      "Model": "ENDEAVOR",
+      "VehicleId": 0
+    },
+    {
+      "ModelYear": 2007,
+      "Make": "MITSUBISHI",
+      "Model": "GALANT",
+      "VehicleId": 0
+    },
+    {
+      "ModelYear": 2007,
+      "Make": "MITSUBISHI",
+      "Model": "LANCER",
+      "VehicleId": 0
+    },
+    {
+      "ModelYear": 2007,
+      "Make": "MITSUBISHI",
+      "Model": "OUTLANDER",
+      "VehicleId": 0
+    },
+    {
+      "ModelYear": 2007,
+      "Make": "MITSUBISHI",
+      "Model": "RAIDER CLUB",
+      "VehicleId": 0
+    },
+    {
+      "ModelYear": 2007,
+      "Make": "MITSUBISHI",
+      "Model": "RAIDER QUAD",
+      "VehicleId": 0
+    }
   ]
 }

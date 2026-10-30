@@ -1,65 +1,102 @@
 require 'test_helper'
 
 module Complaints
+
   class ComplaintsTest < Minitest::Test
 
-    def test_it_builds_url_as_expected
-      expected_url = "https://webapi.nhtsa.gov/api/Complaints/vehicle/2015/Mitsubishi/Lancer?format=json"
+    def setup
+      complaints_webmocks
+    end
 
-      assert_equal expected_url, Nhtsa::Complaints::Complaints.new(2015, "Mitsubishi", "Lancer").url
+    def test_it_builds_url_as_expected
+      expected_url = 'https://api.nhtsa.gov/complaints/complaintsByVehicle?modelYear=2015&make=Mitsubishi&model=Lancer'
+
+      assert_equal expected_url, Nhtsa::Complaints::Complaints.new(2015, 'Mitsubishi', 'Lancer').url
+    end
+
+    def test_manufacturer_escapes_names_properly
+      assert_equal 'Mitsubishi', Nhtsa::Complaints::Complaints.new(2015, 'Mitsubishi', 'Lancer').manufacturer
+    end
+
+    def test_manufacturer_escapes_names_with_spaces_properly
+      assert_equal 'Thomas%20Built%20Buses', Nhtsa::Complaints::Complaints.new(2015, 'Thomas Built Buses', 'Camper').manufacturer
+    end
+
+    def test_maodel_escapes_names_properly
+      assert_equal 'Lancer', Nhtsa::Complaints::Complaints.new(2015, 'Mitsubishi', 'Lancer').model
+    end
+
+    def test_maodel_escapes_names_with_spaces_properly
+      assert_equal 'Lancer%20Evolution%206%20GSX', Nhtsa::Complaints::Complaints.new(2015, 'Mitsubishi', 'Lancer Evolution 6 GSX').model
     end
 
     def test_trim_descriptions_returns_an_array_of_complaint_hashes
       array_of_complaint_hashes = [
         {
-          "ODINumber"=>707631,
-          "Manufacturer"=>"BMW of North America, LLC",
-          "Crash"=>"No",
-          "Fire"=>"No",
-          "NumberOfInjured"=>0,
-          "NumberOfDeaths"=>0,
-          "DateofIncident"=>"\/Date(928814400000-0400)\/",
-          "DateComplaintFiled"=>"\/Date(929592000000-0400)\/",
-          "VIN"=>"WBACG7327WA",
-          "Component"=>"POWER TRAIN:MANUAL TRANSMISSION",
-          "Summary"=>"TRANSMISSION KEPT POPPING OUT OF GEAR.  ORIGINAL AND REPLACEMENT TRANSMISSION FAILED IN 1 YEAR.  BMW STATES THAT IT ISN'T WORTHY OF RECALL BECAUSE IT IS TOO RARE.  IT CAN'T BE THAT RARE IF IT HAPPENED TO ME TWICE, AND  TO A FRIEND ONCE IN THE LAST YEAR. *AK",
-          "ProductType"=>"VEHICLE",
-          "ModelYear"=>"1998",
-          "Make"=>"BMW",
-          "Model"=>"318"
+          "odiNumber" => 849082, 
+          "manufacturer" => "BMW of North America, LLC", 
+          "crash" => true, 
+          "fire" => false, 
+          "numberOfInjuries" => 0, 
+          "numberOfDeaths" => 0, 
+          "dateOfIncident" => "09/25/1999", 
+          "dateComplaintFiled" => "09/29/1999", 
+          "vin" => "", 
+          "components" => "AIR BAGS", 
+          "summary" => "CONSUMER WAS DRIVING AT 10 MPH. WHILE PULLING FROM A STOP LIGHT ANOTHER VEHICLE HIT THE CONSUMER'S VEHICLE ON THE RIGHT. UPON IMPACT,  DRIVER'S SIDE AND PASSENGER'S SIDE AIR BAGS DIDN'T DEPLOY.  THE VEHICLE WAS STRUCK AT A HIGH RATE OF SPEED.  *AK", 
+          "products" => [
+            {
+              "type" => "Vehicle", 
+              "productYear" => "1998", 
+              "productMake" => "BMW", 
+              "productModel" => "318", 
+              "manufacturer" => "BMW of North America, LLC"
+            }
+          ]
         },
         {
-          "ODINumber"=>822392,
-          "Manufacturer"=>"BMW of North America, LLC",
-          "Crash"=>"Yes",
-          "Fire"=>"No",
-          "NumberOfInjured"=>0,
-          "NumberOfDeaths"=>0,
-          "DateofIncident"=>"\/Date(888901200000-0500)\/",
-          "DateComplaintFiled"=>"\/Date(894340800000-0400)\/",
-          "VIN"=>"WBACC0329WE",
-          "Component"=>"VEHICLE SPEED CONTROL",
-          "Summary"=>"ON TWO SEPARATE OCCASIONS THE VEHICLE  SUDDENLY ACCELERATED, CAUSING A  COLLISION. THE DEALER HAS BEEN NOTIFIED.   *AK",
-          "ProductType"=>"VEHICLE",
-          "ModelYear"=>"1998",
-          "Make"=>"BMW",
-          "Model"=>"318"
+          "odiNumber" => 707631, 
+          "manufacturer" => "BMW of North America, LLC", 
+          "crash" => false, 
+          "fire" => false, 
+          "numberOfInjuries" => 0, 
+          "numberOfDeaths" => 0, 
+          "dateOfIncident" => "06/08/1999", 
+          "dateComplaintFiled" => "06/17/1999", 
+          "vin" => "WBACG7327WA", 
+          "components" => "POWER TRAIN", 
+          "summary" => "TRANSMISSION KEPT POPPING OUT OF GEAR.  ORIGINAL AND REPLACEMENT TRANSMISSION FAILED IN 1 YEAR.  BMW STATES THAT IT ISN'T WORTHY OF RECALL BECAUSE IT IS TOO RARE.  IT CAN'T BE THAT RARE IF IT HAPPENED TO ME TWICE, AND  TO A FRIEND ONCE IN THE LAST YEAR. *AK", 
+          "products" => [
+            {
+              "type" => "Vehicle", 
+              "productYear" => "1998", 
+              "productMake" => "BMW", 
+              "productModel" => "318", 
+              "manufacturer" => "BMW of North America, LLC"
+            }
+          ]
         },
         {
-          "ODINumber"=>849082,
-          "Manufacturer"=>"BMW of North America, LLC",
-          "Crash"=>"Yes",
-          "Fire"=>"No",
-          "NumberOfInjured"=>0,
-          "NumberOfDeaths"=>0,
-          "DateofIncident"=>"\/Date(938232000000-0400)\/",
-          "DateComplaintFiled"=>"\/Date(938577600000-0400)\/",
-          "Component"=>"AIR BAGS:FRONTAL | AIR BAGS:FRONTAL | AIR BAGS:FRONTAL",
-          "Summary"=>"CONSUMER WAS DRIVING AT 10 MPH. WHILE PULLING FROM A STOP LIGHT ANOTHER VEHICLE HIT THE CONSUMER'S VEHICLE ON THE RIGHT. UPON IMPACT,  DRIVER'S SIDE AND PASSENGER'S SIDE AIR BAGS DIDN'T DEPLOY.  THE VEHICLE WAS STRUCK AT A HIGH RATE OF SPEED.  *AK",
-          "ProductType"=>"VEHICLE",
-          "ModelYear"=>"1998",
-          "Make"=>"BMW",
-          "Model"=>"318"
+          "odiNumber" => 822392, 
+          "manufacturer" => "BMW of North America, LLC", 
+          "crash" => true, 
+          "fire" => false, 
+          "numberOfInjuries" => 0, 
+          "numberOfDeaths" => 0, 
+          "dateOfIncident" => "03/03/1998", 
+          "dateComplaintFiled" => "05/05/1998", 
+          "vin" => "WBACC0329WE", 
+          "components" => "VEHICLE SPEED CONTROL", 
+          "summary" => "ON TWO SEPARATE OCCASIONS THE VEHICLE  SUDDENLY ACCELERATED, CAUSING A  COLLISION. THE DEALER HAS BEEN NOTIFIED.   *AK", 
+          "products" => [
+            {
+              "type" => "Vehicle", 
+              "productYear" => "1998", 
+              "productMake" => "BMW", 
+              "productModel" => "318", 
+              "manufacturer" => "BMW of North America, LLC"
+            }
+          ]
         }
       ]
 

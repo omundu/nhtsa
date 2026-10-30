@@ -1,0 +1,10 @@
+{
+  "Count": 1,
+  "Message": "Results returned successfully",
+  "Results": [
+    {
+      "VehicleDescription": "2007 Mitsubishi Galant 4-DR. w/SAB",
+      "VehicleId": 2249
+    }
+  ]
+}

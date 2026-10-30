@@ -60,6 +60,7 @@
 
 
 ## Civil Penalties ##
+    **_Deprecated_**
 
 ### End Point ###
     /CivilPenalties

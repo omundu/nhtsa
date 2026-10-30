@@ -1,7 +1,1242 @@
 {
-  "Count":305,
-  "Message":"Results returned successfully",
-  "Results":[
-    {"ModelYear":"1998","Make":"ACURA"},{"ModelYear":"1998","Make":"AERO"},{"ModelYear":"1998","Make":"AIRSTREAM"},{"ModelYear":"1998","Make":"ALFA"},{"ModelYear":"1998","Make":"ALLEN CAMPER"},{"ModelYear":"1998","Make":"ALLURE"},{"ModelYear":"1998","Make":"ALTEC"},{"ModelYear":"1998","Make":"AM GENERAL"},{"ModelYear":"1998","Make":"AMERICAN LAFRANCE"},{"ModelYear":"1998","Make":"AMERICAN TRAVEL"},{"ModelYear":"1998","Make":"AMTRAN"},{"ModelYear":"1998","Make":"ASPEN"},{"ModelYear":"1998","Make":"ASTON MARTIN"},{"ModelYear":"1998","Make":"ATHEY"},{"ModelYear":"1998","Make":"AUDI"},{"ModelYear":"1998","Make":"BEALL"},{"ModelYear":"1998","Make":"BEAVER"},{"ModelYear":"1998","Make":"BEAVER COACH"},{"ModelYear":"1998","Make":"BENSON"},{"ModelYear":"1998","Make":"BENTLEY"},{"ModelYear":"1998","Make":"BEST"},{"ModelYear":"1998","Make":"BIGDOG"},{"ModelYear":"1998","Make":"BLUE BIRD"},{"ModelYear":"1998","Make":"BLUEBIRD"},{"ModelYear":"1998","Make":"BMW"},{"ModelYear":"1998","Make":"BOYDSTUN"},{"ModelYear":"1998","Make":"BUELL"},{"ModelYear":"1998","Make":"BUICK"},{"ModelYear":"1998","Make":"CACHE"},{"ModelYear":"1998","Make":"CADILLAC"},{"ModelYear":"1998","Make":"CALIFORNIA"},{"ModelYear":"1998","Make":"CARRIAGE"},{"ModelYear":"1998","Make":"CHAMPION"},{"ModelYear":"1998","Make":"CHANCE"},{"ModelYear":"1998","Make":"CHEVROLET"},{"ModelYear":"1998","Make":"CHRYSLER"},{"ModelYear":"1998","Make":"CLASSIC"},{"ModelYear":"1998","Make":"COACH HOUSE"},{"ModelYear":"1998","Make":"COACHMEN"},{"ModelYear":"1998","Make":"COAST MACHINERY"},{"ModelYear":"1998","Make":"COLLINS"},{"ModelYear":"1998","Make":"CORBEIL"},{"ModelYear":"1998","Make":"COUNTRY COACH"},{"ModelYear":"1998","Make":"COZAD"},{"ModelYear":"1998","Make":"CRAFTSMEN"},{"ModelYear":"1998","Make":"CRANE"},{"ModelYear":"1998","Make":"CROSSROADS"},{"ModelYear":"1998","Make":"CRUISER RV"},{"ModelYear":"1998","Make":"CUSHMAN"},{"ModelYear":"1998","Make":"CUSTOM CAMPERS"},{"ModelYear":"1998","Make":"DABRYAN"},{"ModelYear":"1998","Make":"DAEWOO"},{"ModelYear":"1998","Make":"DAEWOO PUERTO RICO"},{"ModelYear":"1998","Make":"DAMON"},{"ModelYear":"1998","Make":"DEMPSTER"},{"ModelYear":"1998","Make":"DESTINY"},{"ModelYear":"1998","Make":"DIAMOND COACH"},{"ModelYear":"1998","Make":"DITCH WITCH"},{"ModelYear":"1998","Make":"DODGE"},{"ModelYear":"1998","Make":"DOLPHIN"},{"ModelYear":"1998","Make":"DORSEY"},{"ModelYear":"1998","Make":"DOUBLE DUTY"},{"ModelYear":"1998","Make":"DRAKE"},{"ModelYear":"1998","Make":"DUCATI"},{"ModelYear":"1998","Make":"DUTCHMEN"},{"ModelYear":"1998","Make":"DYNAMAX"},{"ModelYear":"1998","Make":"EAGLE"},{"ModelYear":"1998","Make":"EAST"},{"ModelYear":"1998","Make":"EAST MANUFACTURING"},{"ModelYear":"1998","Make":"EBY"},{"ModelYear":"1998","Make":"ELDORADO"},{"ModelYear":"1998","Make":"ELGIN"},{"ModelYear":"1998","Make":"EMERGENCY ONE"},{"ModelYear":"1998","Make":"ENC"},{"ModelYear":"1998","Make":"ENTREPRISES"},{"ModelYear":"1998","Make":"ETI"},{"ModelYear":"1998","Make":"EUROPA"},{"ModelYear":"1998","Make":"EXECUTIVE COACH"},{"ModelYear":"1998","Make":"EXPLORER VAN"},{"ModelYear":"1998","Make":"FEATHERLITE"},{"ModelYear":"1998","Make":"FEDERAL COACH"},{"ModelYear":"1998","Make":"FERRARI"},{"ModelYear":"1998","Make":"FLEETWOOD"},{"ModelYear":"1998","Make":"FONTAINE"},{"ModelYear":"1998","Make":"FORD"},{"ModelYear":"1998","Make":"FOREST RIVER"},{"ModelYear":"1998","Make":"FORETRAVEL"},{"ModelYear":"1998","Make":"FRANKLIN"},{"ModelYear":"1998","Make":"FREIGHTLINER"},{"ModelYear":"1998","Make":"FRUEHAUF"},{"ModelYear":"1998","Make":"FWF"},{"ModelYear":"1998","Make":"GENERAL COACH"},{"ModelYear":"1998","Make":"GENERAL TRAILER"},{"ModelYear":"1998","Make":"GENIE"},{"ModelYear":"1998","Make":"GEORGIE BOY"},{"ModelYear":"1998","Make":"GILLIG"},{"ModelYear":"1998","Make":"GIRARDIN"},{"ModelYear":"1998","Make":"GLENDALE"},{"ModelYear":"1998","Make":"GMC"},{"ModelYear":"1998","Make":"GORE"},{"ModelYear":"1998","Make":"GREAT DANE"},{"ModelYear":"1998","Make":"GRUMMAN"},{"ModelYear":"1998","Make":"GULF STREAM"},{"ModelYear":"1998","Make":"GULF TOYOTA"},{"ModelYear":"1998","Make":"HALE"},{"ModelYear":"1998","Make":"HARLEY-DAVIDSON"},{"ModelYear":"1998","Make":"HARMAR"},{"ModelYear":"1998","Make":"HARMON"},{"ModelYear":"1998","Make":"HARNEY"},{"ModelYear":"1998","Make":"HART"},{"ModelYear":"1998","Make":"HAULMARK"},{"ModelYear":"1998","Make":"HINO"},{"ModelYear":"1998","Make":"HME"},{"ModelYear":"1998","Make":"HOLIDAY RAMBLER"},{"ModelYear":"1998","Make":"HOME AND PARK"},{"ModelYear":"1998","Make":"HONDA"},{"ModelYear":"1998","Make":"HORTON"},{"ModelYear":"1998","Make":"HUMDINGER"},{"ModelYear":"1998","Make":"HY-LINE"},{"ModelYear":"1998","Make":"HYUNDAI"},{"ModelYear":"1998","Make":"HYUNDAI CARIBBEAN"},{"ModelYear":"1998","Make":"HYUNDAI TRANSLEAD"},{"ModelYear":"1998","Make":"IC"},{"ModelYear":"1998","Make":"INFINITI"},{"ModelYear":"1998","Make":"INTERNATIONAL"},{"ModelYear":"1998","Make":"INTERNATIONAL HARVESTER"},{"ModelYear":"1998","Make":"INTRIGUE"},{"ModelYear":"1998","Make":"ISUZU"},{"ModelYear":"1998","Make":"ITASCA"},{"ModelYear":"1998","Make":"J&L"},{"ModelYear":"1998","Make":"JAGUAR"},{"ModelYear":"1998","Make":"JAYCO"},{"ModelYear":"1998","Make":"JEEP"},{"ModelYear":"1998","Make":"JMH"},{"ModelYear":"1998","Make":"K-Z"},{"ModelYear":"1998","Make":"KENWORTH"},{"ModelYear":"1998","Make":"KEYSTONE"},{"ModelYear":"1998","Make":"KIA"},{"ModelYear":"1998","Make":"KING OF THE ROAD"},{"ModelYear":"1998","Make":"KIT RV"},{"ModelYear":"1998","Make":"KME"},{"ModelYear":"1998","Make":"KRYSTAL"},{"ModelYear":"1998","Make":"LAMBORGHINI"},{"ModelYear":"1998","Make":"LANCE"},{"ModelYear":"1998","Make":"LAND ROVER"},{"ModelYear":"1998","Make":"LAZY DAZE"},{"ModelYear":"1998","Make":"LCW"},{"ModelYear":"1998","Make":"LEXUS"},{"ModelYear":"1998","Make":"LINCOLN"},{"ModelYear":"1998","Make":"LOTUS"},{"ModelYear":"1998","Make":"LUXOR"},{"ModelYear":"1998","Make":"MAC"},{"ModelYear":"1998","Make":"MACK"},{"ModelYear":"1998","Make":"MADRID"},{"ModelYear":"1998","Make":"MAGNUM"},{"ModelYear":"1998","Make":"MARATHON"},{"ModelYear":"1998","Make":"MARK III"},{"ModelYear":"1998","Make":"MARQUE"},{"ModelYear":"1998","Make":"MARQUEZ"},{"ModelYear":"1998","Make":"MATE"},{"ModelYear":"1998","Make":"MAXIM"},{"ModelYear":"1998","Make":"MAZDA"},{"ModelYear":"1998","Make":"MCCOY MILLER"},{"ModelYear":"1998","Make":"MCI"},{"ModelYear":"1998","Make":"MCKENZIE"},{"ModelYear":"1998","Make":"MEDTEC"},{"ModelYear":"1998","Make":"MERCEDES BENZ"},{"ModelYear":"1998","Make":"MERCURY"},{"ModelYear":"1998","Make":"MID BUS"},{"ModelYear":"1998","Make":"MID CONTINENT"},{"ModelYear":"1998","Make":"MITSUBISHI"},{"ModelYear":"1998","Make":"MITSUBISHI CARIBBEAN"},{"ModelYear":"1998","Make":"MITSUBISHI FUSO"},{"ModelYear":"1998","Make":"MOBILE SUITES"},{"ModelYear":"1998","Make":"MONACO COACH"},{"ModelYear":"1998","Make":"MONON"},{"ModelYear":"1998","Make":"MORGAN TRAILER"},{"ModelYear":"1998","Make":"MOTO GUZZI"},{"ModelYear":"1998","Make":"NABI"},{"ModelYear":"1998","Make":"NATIONAL RV"},{"ModelYear":"1998","Make":"NAVISTAR"},{"ModelYear":"1998","Make":"NELSON"},{"ModelYear":"1998","Make":"NEOPLAN"},{"ModelYear":"1998","Make":"NEW FLYER"},{"ModelYear":"1998","Make":"NEW HORIZONS"},{"ModelYear":"1998","Make":"NEWELL"},{"ModelYear":"1998","Make":"NEWMAR"},{"ModelYear":"1998","Make":"NISSAN"},{"ModelYear":"1998","Make":"NISSAN DIESEL"},{"ModelYear":"1998","Make":"NOVA BUS"},{"ModelYear":"1998","Make":"NOVABUS"},{"ModelYear":"1998","Make":"NU VAN"},{"ModelYear":"1998","Make":"NU WA"},{"ModelYear":"1998","Make":"OLDSMOBILE"},{"ModelYear":"1998","Make":"OPTIMA"},{"ModelYear":"1998","Make":"ORION"},{"ModelYear":"1998","Make":"OSHKOSH"},{"ModelYear":"1998","Make":"OTTAWA"},{"ModelYear":"1998","Make":"OVERLAND"},{"ModelYear":"1998","Make":"PACE ARROW"},{"ModelYear":"1998","Make":"PEERLESS"},{"ModelYear":"1998","Make":"PETERBILT"},{"ModelYear":"1998","Make":"PETERSEN"},{"ModelYear":"1998","Make":"PICASSO"},{"ModelYear":"1998","Make":"PIERCE"},{"ModelYear":"1998","Make":"PLEASURE WAY"},{"ModelYear":"1998","Make":"PLYMOUTH"},{"ModelYear":"1998","Make":"POLAR"},{"ModelYear":"1998","Make":"PONTIAC"},{"ModelYear":"1998","Make":"PORSCHE"},{"ModelYear":"1998","Make":"PREVOST"},{"ModelYear":"1998","Make":"PROGRESSIVE"},{"ModelYear":"1998","Make":"QUALITY COACH"},{"ModelYear":"1998","Make":"RED RIVER"},{"ModelYear":"1998","Make":"REGENCY"},{"ModelYear":"1998","Make":"REITNOUER"},{"ModelYear":"1998","Make":"RELIANCE"},{"ModelYear":"1998","Make":"RELIANCE TRAILER"},{"ModelYear":"1998","Make":"RENEGADE"},{"ModelYear":"1998","Make":"REXHALL"},{"ModelYear":"1998","Make":"RHODES"},{"ModelYear":"1998","Make":"RIALTA"},{"ModelYear":"1998","Make":"RIDE AWAY"},{"ModelYear":"1998","Make":"ROAD RESCUE"},{"ModelYear":"1998","Make":"ROLLS-ROYCE"},{"ModelYear":"1998","Make":"ROYALE"},{"ModelYear":"1998","Make":"S&S"},{"ModelYear":"1998","Make":"SAAB"},{"ModelYear":"1998","Make":"SAFARI COACH"},{"ModelYear":"1998","Make":"SALEEN"},{"ModelYear":"1998","Make":"SATURN"},{"ModelYear":"1998","Make":"SCHIEN"},{"ModelYear":"1998","Make":"SCOTTY"},{"ModelYear":"1998","Make":"SETRA"},{"ModelYear":"1998","Make":"SHASTA"},{"ModelYear":"1998","Make":"SILVER EAGLE"},{"ModelYear":"1998","Make":"SKYLINE"},{"ModelYear":"1998","Make":"SPACE CRAFT"},{"ModelYear":"1998","Make":"SPARTAN"},{"ModelYear":"1998","Make":"SPEC TEC"},{"ModelYear":"1998","Make":"STAIRS"},{"ModelYear":"1998","Make":"STARCRAFT"},{"ModelYear":"1998","Make":"STERLING"},{"ModelYear":"1998","Make":"STRICK"},{"ModelYear":"1998","Make":"SUBARU"},{"ModelYear":"1998","Make":"SUN HAWK"},{"ModelYear":"1998","Make":"SUN VALLEY"},{"ModelYear":"1998","Make":"SUNDOWNER"},{"ModelYear":"1998","Make":"SUNLINE"},{"ModelYear":"1998","Make":"SUNNYBROOK"},{"ModelYear":"1998","Make":"SUPERIOR"},{"ModelYear":"1998","Make":"SUTPHEN"},{"ModelYear":"1998","Make":"SUZUKI"},{"ModelYear":"1998","Make":"TALBERT"},{"ModelYear":"1998","Make":"TARASPORT"},{"ModelYear":"1998","Make":"TEREX"},{"ModelYear":"1998","Make":"TETON HOMES"},{"ModelYear":"1998","Make":"THOMAS"},{"ModelYear":"1998","Make":"THOMAS BUILT BUSES"},{"ModelYear":"1998","Make":"THOR"},{"ModelYear":"1998","Make":"THOR CALIFORNIA"},{"ModelYear":"1998","Make":"TIARA"},{"ModelYear":"1998","Make":"TIFFIN"},{"ModelYear":"1998","Make":"TIMPTE"},{"ModelYear":"1998","Make":"TOYOTA"},{"ModelYear":"1998","Make":"TPI"},{"ModelYear":"1998","Make":"TRAIL KING"},{"ModelYear":"1998","Make":"TRAILER"},{"ModelYear":"1998","Make":"TRAILMOBILE"},{"ModelYear":"1998","Make":"TRANSCRAFT"},{"ModelYear":"1998","Make":"TRANSPORT DESIGNS"},{"ModelYear":"1998","Make":"TRAVIS"},{"ModelYear":"1998","Make":"TRIAD MACK"},{"ModelYear":"1998","Make":"TRIUMPH"},{"ModelYear":"1998","Make":"TROPI CAL"},{"ModelYear":"1998","Make":"TRUCK EQUIPMENT"},{"ModelYear":"1998","Make":"TURTLE TOP"},{"ModelYear":"1998","Make":"UD"},{"ModelYear":"1998","Make":"ULTIMATE"},{"ModelYear":"1998","Make":"UNITED"},{"ModelYear":"1998","Make":"UNITED STATES COACHWORKS"},{"ModelYear":"1998","Make":"UNIVERSAL SPECIALTY"},{"ModelYear":"1998","Make":"US BUS"},{"ModelYear":"1998","Make":"UTILIMASTER"},{"ModelYear":"1998","Make":"UTILITY"},{"ModelYear":"1998","Make":"VACTOR"},{"ModelYear":"1998","Make":"VAN CON"},{"ModelYear":"1998","Make":"VAN HOOL"},{"ModelYear":"1998","Make":"VECTRA"},{"ModelYear":"1998","Make":"VIKING"},{"ModelYear":"1998","Make":"VOLKSWAGEN"},{"ModelYear":"1998","Make":"VOLVO"},{"ModelYear":"1998","Make":"WABASH"},{"ModelYear":"1998","Make":"WARREN"},{"ModelYear":"1998","Make":"WEEKEND WARRIOR"},{"ModelYear":"1998","Make":"WELD-IT"},{"ModelYear":"1998","Make":"WESCO"},{"ModelYear":"1998","Make":"WESTERN"},{"ModelYear":"1998","Make":"WESTERN STAR"},{"ModelYear":"1998","Make":"WHITE GMC"},{"ModelYear":"1998","Make":"WILKENS"},{"ModelYear":"1998","Make":"WINNEBAGO"},{"ModelYear":"1998","Make":"WINSTON"},{"ModelYear":"1998","Make":"XL"},{"ModelYear":"1998","Make":"YAMAHA"}
+  "count": 309,
+  "message": "Results returned successfully",
+  "results": [
+    {
+      "modelYear": "1998",
+      "make": "ACURA"
+    },
+    {
+      "modelYear": "1998",
+      "make": "AERO"
+    },
+    {
+      "modelYear": "1998",
+      "make": "AIRSTREAM"
+    },
+    {
+      "modelYear": "1998",
+      "make": "ALFA"
+    },
+    {
+      "modelYear": "1998",
+      "make": "ALLEN CAMPER"
+    },
+    {
+      "modelYear": "1998",
+      "make": "ALLURE"
+    },
+    {
+      "modelYear": "1998",
+      "make": "ALTEC"
+    },
+    {
+      "modelYear": "1998",
+      "make": "AM GENERAL"
+    },
+    {
+      "modelYear": "1998",
+      "make": "AMERICAN LAFRANCE"
+    },
+    {
+      "modelYear": "1998",
+      "make": "AMERICAN TRAVEL"
+    },
+    {
+      "modelYear": "1998",
+      "make": "AMTRAN"
+    },
+    {
+      "modelYear": "1998",
+      "make": "ASPEN"
+    },
+    {
+      "modelYear": "1998",
+      "make": "ASTON MARTIN"
+    },
+    {
+      "modelYear": "1998",
+      "make": "ATHEY"
+    },
+    {
+      "modelYear": "1998",
+      "make": "AUDI"
+    },
+    {
+      "modelYear": "1998",
+      "make": "BEALL"
+    },
+    {
+      "modelYear": "1998",
+      "make": "BEAVER"
+    },
+    {
+      "modelYear": "1998",
+      "make": "BEAVER COACH"
+    },
+    {
+      "modelYear": "1998",
+      "make": "BENSON"
+    },
+    {
+      "modelYear": "1998",
+      "make": "BENTLEY"
+    },
+    {
+      "modelYear": "1998",
+      "make": "BEST"
+    },
+    {
+      "modelYear": "1998",
+      "make": "BIGDOG"
+    },
+    {
+      "modelYear": "1998",
+      "make": "BLUE BIRD"
+    },
+    {
+      "modelYear": "1998",
+      "make": "BLUEBIRD"
+    },
+    {
+      "modelYear": "1998",
+      "make": "BMW"
+    },
+    {
+      "modelYear": "1998",
+      "make": "BOYDSTUN"
+    },
+    {
+      "modelYear": "1998",
+      "make": "BUELL"
+    },
+    {
+      "modelYear": "1998",
+      "make": "BUICK"
+    },
+    {
+      "modelYear": "1998",
+      "make": "CACHE"
+    },
+    {
+      "modelYear": "1998",
+      "make": "CADILLAC"
+    },
+    {
+      "modelYear": "1998",
+      "make": "CALIFORNIA"
+    },
+    {
+      "modelYear": "1998",
+      "make": "CARRIAGE"
+    },
+    {
+      "modelYear": "1998",
+      "make": "CHAMPION"
+    },
+    {
+      "modelYear": "1998",
+      "make": "CHANCE"
+    },
+    {
+      "modelYear": "1998",
+      "make": "CHEVROLET"
+    },
+    {
+      "modelYear": "1998",
+      "make": "CHRYSLER"
+    },
+    {
+      "modelYear": "1998",
+      "make": "CLASSIC"
+    },
+    {
+      "modelYear": "1998",
+      "make": "COACH HOUSE"
+    },
+    {
+      "modelYear": "1998",
+      "make": "COACHMEN"
+    },
+    {
+      "modelYear": "1998",
+      "make": "COAST MACHINERY"
+    },
+    {
+      "modelYear": "1998",
+      "make": "COLLINS"
+    },
+    {
+      "modelYear": "1998",
+      "make": "CORBEIL"
+    },
+    {
+      "modelYear": "1998",
+      "make": "COUNTRY COACH"
+    },
+    {
+      "modelYear": "1998",
+      "make": "COZAD"
+    },
+    {
+      "modelYear": "1998",
+      "make": "CRAFTSMEN"
+    },
+    {
+      "modelYear": "1998",
+      "make": "CRANE"
+    },
+    {
+      "modelYear": "1998",
+      "make": "CROSSROADS"
+    },
+    {
+      "modelYear": "1998",
+      "make": "CRUISER RV"
+    },
+    {
+      "modelYear": "1998",
+      "make": "CUSHMAN"
+    },
+    {
+      "modelYear": "1998",
+      "make": "CUSTOM CAMPERS"
+    },
+    {
+      "modelYear": "1998",
+      "make": "DABRYAN"
+    },
+    {
+      "modelYear": "1998",
+      "make": "DAEWOO"
+    },
+    {
+      "modelYear": "1998",
+      "make": "DAEWOO PUERTO RICO"
+    },
+    {
+      "modelYear": "1998",
+      "make": "DAMON"
+    },
+    {
+      "modelYear": "1998",
+      "make": "DEMPSTER"
+    },
+    {
+      "modelYear": "1998",
+      "make": "DESTINY"
+    },
+    {
+      "modelYear": "1998",
+      "make": "DIAMOND COACH"
+    },
+    {
+      "modelYear": "1998",
+      "make": "DITCH WITCH"
+    },
+    {
+      "modelYear": "1998",
+      "make": "DODGE"
+    },
+    {
+      "modelYear": "1998",
+      "make": "DOLPHIN"
+    },
+    {
+      "modelYear": "1998",
+      "make": "DORSEY"
+    },
+    {
+      "modelYear": "1998",
+      "make": "DOUBLE DUTY"
+    },
+    {
+      "modelYear": "1998",
+      "make": "DRAKE"
+    },
+    {
+      "modelYear": "1998",
+      "make": "DUCATI"
+    },
+    {
+      "modelYear": "1998",
+      "make": "DUTCHMEN"
+    },
+    {
+      "modelYear": "1998",
+      "make": "DYNAMAX"
+    },
+    {
+      "modelYear": "1998",
+      "make": "EAGLE"
+    },
+    {
+      "modelYear": "1998",
+      "make": "EAST"
+    },
+    {
+      "modelYear": "1998",
+      "make": "EAST MANUFACTURING"
+    },
+    {
+      "modelYear": "1998",
+      "make": "EBY"
+    },
+    {
+      "modelYear": "1998",
+      "make": "ELDORADO"
+    },
+    {
+      "modelYear": "1998",
+      "make": "ELGIN"
+    },
+    {
+      "modelYear": "1998",
+      "make": "EMERGENCY ONE"
+    },
+    {
+      "modelYear": "1998",
+      "make": "ENC"
+    },
+    {
+      "modelYear": "1998",
+      "make": "ENTREPRISES"
+    },
+    {
+      "modelYear": "1998",
+      "make": "ETI"
+    },
+    {
+      "modelYear": "1998",
+      "make": "EUROPA"
+    },
+    {
+      "modelYear": "1998",
+      "make": "EXECUTIVE COACH"
+    },
+    {
+      "modelYear": "1998",
+      "make": "EXPLORER VAN"
+    },
+    {
+      "modelYear": "1998",
+      "make": "FEATHERLITE"
+    },
+    {
+      "modelYear": "1998",
+      "make": "FEDERAL COACH"
+    },
+    {
+      "modelYear": "1998",
+      "make": "FERRARI"
+    },
+    {
+      "modelYear": "1998",
+      "make": "FLEETWOOD"
+    },
+    {
+      "modelYear": "1998",
+      "make": "FONTAINE"
+    },
+    {
+      "modelYear": "1998",
+      "make": "FORD"
+    },
+    {
+      "modelYear": "1998",
+      "make": "FOREST RIVER"
+    },
+    {
+      "modelYear": "1998",
+      "make": "FORETRAVEL"
+    },
+    {
+      "modelYear": "1998",
+      "make": "FRANKLIN"
+    },
+    {
+      "modelYear": "1998",
+      "make": "FREIGHTLINER"
+    },
+    {
+      "modelYear": "1998",
+      "make": "FRUEHAUF"
+    },
+    {
+      "modelYear": "1998",
+      "make": "FWF"
+    },
+    {
+      "modelYear": "1998",
+      "make": "GENERAL COACH"
+    },
+    {
+      "modelYear": "1998",
+      "make": "GENERAL TRAILER"
+    },
+    {
+      "modelYear": "1998",
+      "make": "GENIE"
+    },
+    {
+      "modelYear": "1998",
+      "make": "GEORGIE BOY"
+    },
+    {
+      "modelYear": "1998",
+      "make": "GILLIG"
+    },
+    {
+      "modelYear": "1998",
+      "make": "GIRARDIN"
+    },
+    {
+      "modelYear": "1998",
+      "make": "GLENDALE"
+    },
+    {
+      "modelYear": "1998",
+      "make": "GMC"
+    },
+    {
+      "modelYear": "1998",
+      "make": "GORE"
+    },
+    {
+      "modelYear": "1998",
+      "make": "GREAT DANE"
+    },
+    {
+      "modelYear": "1998",
+      "make": "GREAT LAKES"
+    },
+    {
+      "modelYear": "1998",
+      "make": "GRUMMAN"
+    },
+    {
+      "modelYear": "1998",
+      "make": "GULF STREAM"
+    },
+    {
+      "modelYear": "1998",
+      "make": "GULF TOYOTA"
+    },
+    {
+      "modelYear": "1998",
+      "make": "HALE"
+    },
+    {
+      "modelYear": "1998",
+      "make": "HARLEY-DAVIDSON"
+    },
+    {
+      "modelYear": "1998",
+      "make": "HARMAR"
+    },
+    {
+      "modelYear": "1998",
+      "make": "HARMON"
+    },
+    {
+      "modelYear": "1998",
+      "make": "HARNEY"
+    },
+    {
+      "modelYear": "1998",
+      "make": "HART"
+    },
+    {
+      "modelYear": "1998",
+      "make": "HAULMARK"
+    },
+    {
+      "modelYear": "1998",
+      "make": "HINO"
+    },
+    {
+      "modelYear": "1998",
+      "make": "HME"
+    },
+    {
+      "modelYear": "1998",
+      "make": "HOLIDAY RAMBLER"
+    },
+    {
+      "modelYear": "1998",
+      "make": "HOME AND PARK"
+    },
+    {
+      "modelYear": "1998",
+      "make": "HONDA"
+    },
+    {
+      "modelYear": "1998",
+      "make": "HORTON"
+    },
+    {
+      "modelYear": "1998",
+      "make": "HUMDINGER"
+    },
+    {
+      "modelYear": "1998",
+      "make": "HY-LINE"
+    },
+    {
+      "modelYear": "1998",
+      "make": "HYUNDAI"
+    },
+    {
+      "modelYear": "1998",
+      "make": "HYUNDAI CARIBBEAN"
+    },
+    {
+      "modelYear": "1998",
+      "make": "HYUNDAI TRANSLEAD"
+    },
+    {
+      "modelYear": "1998",
+      "make": "IC"
+    },
+    {
+      "modelYear": "1998",
+      "make": "INFINITI"
+    },
+    {
+      "modelYear": "1998",
+      "make": "INTERNATIONAL"
+    },
+    {
+      "modelYear": "1998",
+      "make": "INTERNATIONAL HARVESTER"
+    },
+    {
+      "modelYear": "1998",
+      "make": "INTRIGUE"
+    },
+    {
+      "modelYear": "1998",
+      "make": "ISUZU"
+    },
+    {
+      "modelYear": "1998",
+      "make": "ITASCA"
+    },
+    {
+      "modelYear": "1998",
+      "make": "J&L"
+    },
+    {
+      "modelYear": "1998",
+      "make": "JAGUAR"
+    },
+    {
+      "modelYear": "1998",
+      "make": "JAYCO"
+    },
+    {
+      "modelYear": "1998",
+      "make": "JEEP"
+    },
+    {
+      "modelYear": "1998",
+      "make": "JMH"
+    },
+    {
+      "modelYear": "1998",
+      "make": "K-Z"
+    },
+    {
+      "modelYear": "1998",
+      "make": "KENWORTH"
+    },
+    {
+      "modelYear": "1998",
+      "make": "KEYSTONE"
+    },
+    {
+      "modelYear": "1998",
+      "make": "KIA"
+    },
+    {
+      "modelYear": "1998",
+      "make": "KING OF THE ROAD"
+    },
+    {
+      "modelYear": "1998",
+      "make": "KIT RV"
+    },
+    {
+      "modelYear": "1998",
+      "make": "KME"
+    },
+    {
+      "modelYear": "1998",
+      "make": "KOMPACT KAMP"
+    },
+    {
+      "modelYear": "1998",
+      "make": "KRYSTAL"
+    },
+    {
+      "modelYear": "1998",
+      "make": "LAMBORGHINI"
+    },
+    {
+      "modelYear": "1998",
+      "make": "LANCE"
+    },
+    {
+      "modelYear": "1998",
+      "make": "LAND ROVER"
+    },
+    {
+      "modelYear": "1998",
+      "make": "LAZY DAZE"
+    },
+    {
+      "modelYear": "1998",
+      "make": "LCW"
+    },
+    {
+      "modelYear": "1998",
+      "make": "LEXUS"
+    },
+    {
+      "modelYear": "1998",
+      "make": "LINCOLN"
+    },
+    {
+      "modelYear": "1998",
+      "make": "LOTUS"
+    },
+    {
+      "modelYear": "1998",
+      "make": "LUXOR"
+    },
+    {
+      "modelYear": "1998",
+      "make": "MAC"
+    },
+    {
+      "modelYear": "1998",
+      "make": "MACK"
+    },
+    {
+      "modelYear": "1998",
+      "make": "MADRID"
+    },
+    {
+      "modelYear": "1998",
+      "make": "MAGNUM"
+    },
+    {
+      "modelYear": "1998",
+      "make": "MARATHON"
+    },
+    {
+      "modelYear": "1998",
+      "make": "MARK III"
+    },
+    {
+      "modelYear": "1998",
+      "make": "MARQUE"
+    },
+    {
+      "modelYear": "1998",
+      "make": "MARQUEZ"
+    },
+    {
+      "modelYear": "1998",
+      "make": "MATE"
+    },
+    {
+      "modelYear": "1998",
+      "make": "MAXIM"
+    },
+    {
+      "modelYear": "1998",
+      "make": "MAZDA"
+    },
+    {
+      "modelYear": "1998",
+      "make": "MCCOY MILLER"
+    },
+    {
+      "modelYear": "1998",
+      "make": "MCI"
+    },
+    {
+      "modelYear": "1998",
+      "make": "MCKENZIE"
+    },
+    {
+      "modelYear": "1998",
+      "make": "MEDTEC"
+    },
+    {
+      "modelYear": "1998",
+      "make": "MERCEDES BENZ"
+    },
+    {
+      "modelYear": "1998",
+      "make": "MERCURY"
+    },
+    {
+      "modelYear": "1998",
+      "make": "MID BUS"
+    },
+    {
+      "modelYear": "1998",
+      "make": "MID CONTINENT"
+    },
+    {
+      "modelYear": "1998",
+      "make": "MITSUBISHI"
+    },
+    {
+      "modelYear": "1998",
+      "make": "MITSUBISHI CARIBBEAN"
+    },
+    {
+      "modelYear": "1998",
+      "make": "MITSUBISHI FUSO"
+    },
+    {
+      "modelYear": "1998",
+      "make": "MOBILE SUITES"
+    },
+    {
+      "modelYear": "1998",
+      "make": "MONACO COACH"
+    },
+    {
+      "modelYear": "1998",
+      "make": "MONON"
+    },
+    {
+      "modelYear": "1998",
+      "make": "MORGAN TRAILER"
+    },
+    {
+      "modelYear": "1998",
+      "make": "MOTO GUZZI"
+    },
+    {
+      "modelYear": "1998",
+      "make": "NABI"
+    },
+    {
+      "modelYear": "1998",
+      "make": "NATIONAL RV"
+    },
+    {
+      "modelYear": "1998",
+      "make": "NAVISTAR"
+    },
+    {
+      "modelYear": "1998",
+      "make": "NELSON"
+    },
+    {
+      "modelYear": "1998",
+      "make": "NEOPLAN"
+    },
+    {
+      "modelYear": "1998",
+      "make": "NEW FLYER"
+    },
+    {
+      "modelYear": "1998",
+      "make": "NEW HORIZONS"
+    },
+    {
+      "modelYear": "1998",
+      "make": "NEWELL"
+    },
+    {
+      "modelYear": "1998",
+      "make": "NEWMAR"
+    },
+    {
+      "modelYear": "1998",
+      "make": "NISSAN"
+    },
+    {
+      "modelYear": "1998",
+      "make": "NISSAN DIESEL"
+    },
+    {
+      "modelYear": "1998",
+      "make": "NOVA BUS"
+    },
+    {
+      "modelYear": "1998",
+      "make": "NOVABUS"
+    },
+    {
+      "modelYear": "1998",
+      "make": "NU VAN"
+    },
+    {
+      "modelYear": "1998",
+      "make": "NU WA"
+    },
+    {
+      "modelYear": "1998",
+      "make": "OLDSMOBILE"
+    },
+    {
+      "modelYear": "1998",
+      "make": "OPTIMA"
+    },
+    {
+      "modelYear": "1998",
+      "make": "ORION"
+    },
+    {
+      "modelYear": "1998",
+      "make": "OSHKOSH"
+    },
+    {
+      "modelYear": "1998",
+      "make": "OTTAWA"
+    },
+    {
+      "modelYear": "1998",
+      "make": "OVERLAND"
+    },
+    {
+      "modelYear": "1998",
+      "make": "PACE ARROW"
+    },
+    {
+      "modelYear": "1998",
+      "make": "PEERLESS"
+    },
+    {
+      "modelYear": "1998",
+      "make": "PETERBILT"
+    },
+    {
+      "modelYear": "1998",
+      "make": "PETERSEN"
+    },
+    {
+      "modelYear": "1998",
+      "make": "PICASSO"
+    },
+    {
+      "modelYear": "1998",
+      "make": "PIERCE"
+    },
+    {
+      "modelYear": "1998",
+      "make": "PLEASURE WAY"
+    },
+    {
+      "modelYear": "1998",
+      "make": "PLYMOUTH"
+    },
+    {
+      "modelYear": "1998",
+      "make": "POLAR"
+    },
+    {
+      "modelYear": "1998",
+      "make": "PONTIAC"
+    },
+    {
+      "modelYear": "1998",
+      "make": "PORSCHE"
+    },
+    {
+      "modelYear": "1998",
+      "make": "PREVOST"
+    },
+    {
+      "modelYear": "1998",
+      "make": "PROGRESSIVE"
+    },
+    {
+      "modelYear": "1998",
+      "make": "QUALITY COACH"
+    },
+    {
+      "modelYear": "1998",
+      "make": "RED RIVER"
+    },
+    {
+      "modelYear": "1998",
+      "make": "REGENCY"
+    },
+    {
+      "modelYear": "1998",
+      "make": "REITNOUER"
+    },
+    {
+      "modelYear": "1998",
+      "make": "RELIANCE"
+    },
+    {
+      "modelYear": "1998",
+      "make": "RELIANCE TRAILER"
+    },
+    {
+      "modelYear": "1998",
+      "make": "RENEGADE"
+    },
+    {
+      "modelYear": "1998",
+      "make": "REXHALL"
+    },
+    {
+      "modelYear": "1998",
+      "make": "RHODES"
+    },
+    {
+      "modelYear": "1998",
+      "make": "RIALTA"
+    },
+    {
+      "modelYear": "1998",
+      "make": "RIDE AWAY"
+    },
+    {
+      "modelYear": "1998",
+      "make": "RIDE THE DUCKS"
+    },
+    {
+      "modelYear": "1998",
+      "make": "ROAD RESCUE"
+    },
+    {
+      "modelYear": "1998",
+      "make": "ROLLS-ROYCE"
+    },
+    {
+      "modelYear": "1998",
+      "make": "ROYALE"
+    },
+    {
+      "modelYear": "1998",
+      "make": "S&S"
+    },
+    {
+      "modelYear": "1998",
+      "make": "SAAB"
+    },
+    {
+      "modelYear": "1998",
+      "make": "SAFARI COACH"
+    },
+    {
+      "modelYear": "1998",
+      "make": "SALEEN"
+    },
+    {
+      "modelYear": "1998",
+      "make": "SATURN"
+    },
+    {
+      "modelYear": "1998",
+      "make": "SCHIEN"
+    },
+    {
+      "modelYear": "1998",
+      "make": "SCOTTY"
+    },
+    {
+      "modelYear": "1998",
+      "make": "SETRA"
+    },
+    {
+      "modelYear": "1998",
+      "make": "SHASTA"
+    },
+    {
+      "modelYear": "1998",
+      "make": "SILVER EAGLE"
+    },
+    {
+      "modelYear": "1998",
+      "make": "SKYLINE"
+    },
+    {
+      "modelYear": "1998",
+      "make": "SMEAL"
+    },
+    {
+      "modelYear": "1998",
+      "make": "SPACE CRAFT"
+    },
+    {
+      "modelYear": "1998",
+      "make": "SPARTAN"
+    },
+    {
+      "modelYear": "1998",
+      "make": "SPEC TEC"
+    },
+    {
+      "modelYear": "1998",
+      "make": "STAIRS"
+    },
+    {
+      "modelYear": "1998",
+      "make": "STARCRAFT"
+    },
+    {
+      "modelYear": "1998",
+      "make": "STERLING"
+    },
+    {
+      "modelYear": "1998",
+      "make": "STRICK"
+    },
+    {
+      "modelYear": "1998",
+      "make": "SUBARU"
+    },
+    {
+      "modelYear": "1998",
+      "make": "SUN HAWK"
+    },
+    {
+      "modelYear": "1998",
+      "make": "SUN VALLEY"
+    },
+    {
+      "modelYear": "1998",
+      "make": "SUNDOWNER"
+    },
+    {
+      "modelYear": "1998",
+      "make": "SUNLINE"
+    },
+    {
+      "modelYear": "1998",
+      "make": "SUNNYBROOK"
+    },
+    {
+      "modelYear": "1998",
+      "make": "SUPERIOR"
+    },
+    {
+      "modelYear": "1998",
+      "make": "SUTPHEN"
+    },
+    {
+      "modelYear": "1998",
+      "make": "SUZUKI"
+    },
+    {
+      "modelYear": "1998",
+      "make": "TALBERT"
+    },
+    {
+      "modelYear": "1998",
+      "make": "TARASPORT"
+    },
+    {
+      "modelYear": "1998",
+      "make": "TEREX"
+    },
+    {
+      "modelYear": "1998",
+      "make": "TETON HOMES"
+    },
+    {
+      "modelYear": "1998",
+      "make": "THOMAS"
+    },
+    {
+      "modelYear": "1998",
+      "make": "THOMAS BUILT BUSES"
+    },
+    {
+      "modelYear": "1998",
+      "make": "THOR"
+    },
+    {
+      "modelYear": "1998",
+      "make": "THOR CALIFORNIA"
+    },
+    {
+      "modelYear": "1998",
+      "make": "TIARA"
+    },
+    {
+      "modelYear": "1998",
+      "make": "TIFFIN"
+    },
+    {
+      "modelYear": "1998",
+      "make": "TIMPTE"
+    },
+    {
+      "modelYear": "1998",
+      "make": "TOYOTA"
+    },
+    {
+      "modelYear": "1998",
+      "make": "TPI"
+    },
+    {
+      "modelYear": "1998",
+      "make": "TRAIL KING"
+    },
+    {
+      "modelYear": "1998",
+      "make": "TRAILER"
+    },
+    {
+      "modelYear": "1998",
+      "make": "TRAILMOBILE"
+    },
+    {
+      "modelYear": "1998",
+      "make": "TRANSCRAFT"
+    },
+    {
+      "modelYear": "1998",
+      "make": "TRANSPORT DESIGNS"
+    },
+    {
+      "modelYear": "1998",
+      "make": "TRAVIS"
+    },
+    {
+      "modelYear": "1998",
+      "make": "TRIAD MACK"
+    },
+    {
+      "modelYear": "1998",
+      "make": "TRIUMPH"
+    },
+    {
+      "modelYear": "1998",
+      "make": "TROPI CAL"
+    },
+    {
+      "modelYear": "1998",
+      "make": "TRUCK EQUIPMENT"
+    },
+    {
+      "modelYear": "1998",
+      "make": "TURTLE TOP"
+    },
+    {
+      "modelYear": "1998",
+      "make": "UD"
+    },
+    {
+      "modelYear": "1998",
+      "make": "ULTIMATE"
+    },
+    {
+      "modelYear": "1998",
+      "make": "UNITED"
+    },
+    {
+      "modelYear": "1998",
+      "make": "UNITED STATES COACHWORKS"
+    },
+    {
+      "modelYear": "1998",
+      "make": "UNIVERSAL SPECIALTY"
+    },
+    {
+      "modelYear": "1998",
+      "make": "US BUS"
+    },
+    {
+      "modelYear": "1998",
+      "make": "UTILIMASTER"
+    },
+    {
+      "modelYear": "1998",
+      "make": "UTILITY"
+    },
+    {
+      "modelYear": "1998",
+      "make": "VACTOR"
+    },
+    {
+      "modelYear": "1998",
+      "make": "VAN CON"
+    },
+    {
+      "modelYear": "1998",
+      "make": "VAN HOOL"
+    },
+    {
+      "modelYear": "1998",
+      "make": "VECTRA"
+    },
+    {
+      "modelYear": "1998",
+      "make": "VIKING"
+    },
+    {
+      "modelYear": "1998",
+      "make": "VOLKSWAGEN"
+    },
+    {
+      "modelYear": "1998",
+      "make": "VOLVO"
+    },
+    {
+      "modelYear": "1998",
+      "make": "WABASH"
+    },
+    {
+      "modelYear": "1998",
+      "make": "WARREN"
+    },
+    {
+      "modelYear": "1998",
+      "make": "WEEKEND WARRIOR"
+    },
+    {
+      "modelYear": "1998",
+      "make": "WELD-IT"
+    },
+    {
+      "modelYear": "1998",
+      "make": "WESCO"
+    },
+    {
+      "modelYear": "1998",
+      "make": "WESTERN"
+    },
+    {
+      "modelYear": "1998",
+      "make": "WESTERN STAR"
+    },
+    {
+      "modelYear": "1998",
+      "make": "WHITE GMC"
+    },
+    {
+      "modelYear": "1998",
+      "make": "WILKENS"
+    },
+    {
+      "modelYear": "1998",
+      "make": "WINNEBAGO"
+    },
+    {
+      "modelYear": "1998",
+      "make": "WINSTON"
+    },
+    {
+      "modelYear": "1998",
+      "make": "XL"
+    },
+    {
+      "modelYear": "1998",
+      "make": "YAMAHA"
+    }
   ]
 }
