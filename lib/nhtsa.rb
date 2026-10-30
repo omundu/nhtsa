@@ -11,5 +11,9 @@ module Nhtsa
 
   BASE_URI = 'https://api.nhtsa.gov'
   DEFAULT_PARAMS = '?format=json'
+
+  def self.encode_uri_component(str, enc = nil)
+    URI.encode_www_form_component(str, enc).gsub("+", "%20")
+  end
   
 end

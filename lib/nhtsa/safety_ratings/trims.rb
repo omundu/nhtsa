@@ -10,7 +10,7 @@ module Nhtsa
       end
 
       def url
-        "#{BASE_URI}#{END_POINT}/modelyear/#{@year}/make/#{URI.encode_uri_component(@manufacturer.name)}/model/#{URI.encode_uri_component(@model.name)}#{DEFAULT_PARAMS}"
+        "#{BASE_URI}#{END_POINT}/modelyear/#{@year}/make/#{Nhtsa.encode_uri_component(@manufacturer.name)}/model/#{Nhtsa.encode_uri_component(@model.name)}#{DEFAULT_PARAMS}"
       end
 
       def year

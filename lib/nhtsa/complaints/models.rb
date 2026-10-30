@@ -5,7 +5,7 @@ module Nhtsa
 
       def initialize(year, manufacturer)
         @year = year
-        @manufacturer = URI.encode_uri_component(manufacturer)
+        @manufacturer = Nhtsa.encode_uri_component(manufacturer)
       end
 
       def manufacturer
