@@ -17,7 +17,7 @@ module Nhtsa
       end
 
       def models
-        JSON.parse(URI.open(url).read)['results'].collect{|model| model['model']}
+        @models ||= JSON.parse(URI.open(url).read)['results'].collect{|model| model['model']}
       end
 
     end

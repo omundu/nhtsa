@@ -8,7 +8,7 @@ module Nhtsa
       end
 
       def civil_penalties
-        # JSON.parse(URI.open(url).read)['Results']
+        # @civil_penalties ||= JSON.parse(URI.open(url).read)['Results']
         []
       end
 

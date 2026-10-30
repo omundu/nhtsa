@@ -12,7 +12,7 @@ module Nhtsa
       end
 
       def campaign_recalls
-        JSON.parse(URI.open(url).read)['results']
+        @campaign_recalls ||= JSON.parse(URI.open(url).read)['results']
       end
 
     end

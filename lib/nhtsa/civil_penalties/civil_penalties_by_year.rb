@@ -12,7 +12,7 @@ module Nhtsa
       end
 
       def civil_penalties_by_year
-        # JSON.parse(URI.open(url).read)['Results']
+        # @civil_penalties_by_year ||= JSON.parse(URI.open(url).read)['Results']
         []
       end
 

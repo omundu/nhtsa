@@ -22,7 +22,7 @@ module Nhtsa
       end
 
       def complaints
-        JSON.parse(URI.open(url).read)['results']
+        @complaints ||= JSON.parse(URI.open(url).read)['results']
       end
 
     end

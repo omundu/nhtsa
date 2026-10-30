@@ -12,7 +12,7 @@ module Nhtsa
       end
 
       def manufacturers
-        JSON.parse(URI.open(url).read)['results'].collect{|manufacturer| manufacturer['make']}
+        @manufacturers ||= JSON.parse(URI.open(url).read)['results'].collect{|manufacturer| manufacturer['make']}
       end
 
     end

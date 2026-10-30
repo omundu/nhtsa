@@ -12,7 +12,7 @@ module Nhtsa
       end
 
       def complaints_by_odi_number
-        JSON.parse(URI.open(url).read)['results']
+        @complaints_by_odi_number ||= JSON.parse(URI.open(url).read)['results']
       end
 
     end

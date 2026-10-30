@@ -8,7 +8,7 @@ module Nhtsa
       end
 
       def years
-        JSON.parse(URI.open(url).read)['results'].collect{|year| year['modelYear']}
+        @years ||= JSON.parse(URI.open(url).read)['results'].collect{|year| year['modelYear']}
       end
 
     end

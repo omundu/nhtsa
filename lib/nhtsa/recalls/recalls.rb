@@ -22,7 +22,7 @@ module Nhtsa
       end
 
       def recalls
-        JSON.parse(URI.open(url).read)['results']
+        @recalls ||= JSON.parse(URI.open(url).read)['results']
       end
 
     end

@@ -23,7 +23,7 @@ module Nhtsa
       end
 
       def inspection_stations
-        JSON.parse(URI.open(url).read)['Results']
+        @inspection_stations ||= JSON.parse(URI.open(url).read)['Results']
       end
 
     end

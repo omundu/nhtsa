@@ -17,13 +17,3 @@ module Nhtsa
     COMPLAINT_ODI_ENDPOINT = '/complaints/odinumber'
   end
 end
-
-# https://api.nhtsa.gov/complaints/complaintsByVehicle?make=acura&model=rdx&modelYear=2012
-
-# https://api.nhtsa.gov/products/vehicle/modelYears?issueType=c
-# https://api.nhtsa.gov/products/vehicle/makes?modelYear=2021&issueType=c
-# https://api.nhtsa.gov/products/vehicle/models?modelYear=2010&make=acura&issueType=c
-
-# https://api.nhtsa.gov/complaints/complaintsByVehicle?make=acura&model=rdx&modelYear=2012
-
-# https://api.nhtsa.gov/complaints/odinumber?odinumber=11184030
