@@ -1,6 +1,8 @@
 module Nhtsa
   module ChildSafetySeatInspectionStationLocator
+
     class GetByZipCode
+      
       def initialize(zip_code, filters = {:spanish => false, :cpsweek => false})
         @zip_code = zip_code
         @filters = filters
@@ -8,19 +10,21 @@ module Nhtsa
 
       def url
         if @filters[:spanish] && @filters[:cpsweek]
-          "#{BASE_URI}#{END_POINT}/zip/#{@zip_code}#{CPS_WEEK}#{SPANISH}#{DEFAULT_PARAMS}"
+          "#{BASE_URI}#{END_POINT}/zip/#{@zip_code}#{CPS_WEEK}#{SPANISH}"
         elsif @filters[:spanish]
-          "#{BASE_URI}#{END_POINT}/zip/#{@zip_code}#{SPANISH}#{DEFAULT_PARAMS}"
+          "#{BASE_URI}#{END_POINT}/zip/#{@zip_code}#{SPANISH}"
         elsif @filters[:cpsweek]
-          "#{BASE_URI}#{END_POINT}/zip/#{@zip_code}#{CPS_WEEK}#{DEFAULT_PARAMS}"
+          "#{BASE_URI}#{END_POINT}/zip/#{@zip_code}#{CPS_WEEK}"
         else
-          "#{BASE_URI}#{END_POINT}/zip/#{@zip_code}#{DEFAULT_PARAMS}"
+          "#{BASE_URI}#{END_POINT}/zip/#{@zip_code}"
         end
       end
 
       def inspection_stations
-        JSON.parse(open(url).read)["Results"]
+        JSON.parse(URI.open(url).read)['Results']
       end
+
     end
+
   end
 end
