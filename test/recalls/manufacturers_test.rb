@@ -3,7 +3,7 @@ require 'test_helper'
 class ManufacturersTest < Minitest::Test
 
   def setup
-    recalls_webmock
+    recalls_webmocks
   end
 
   def test_it_builds_url_as_expected

@@ -48,7 +48,7 @@ module RequestStubs
 
   end
 
-  def recalls_webmock
+  def recalls_webmocks
   
     stub_request(:get, 'https://api.nhtsa.gov/products/vehicle/modelYears').
       with(query: {'issueType' => 'r'}).
@@ -72,7 +72,7 @@ module RequestStubs
 
   end
 
-  def complaints_webmock
+  def complaints_webmocks
 
     stub_request(:get, 'https://api.nhtsa.gov/products/vehicle/modelYears').
       with(query: {'issueType' => 'c'}).

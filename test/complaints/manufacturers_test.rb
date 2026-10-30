@@ -5,7 +5,7 @@ module Complaints
   class ManufacturersTest < Minitest::Test
 
     def setup
-      complaints_webmock
+      complaints_webmocks
     end
 
     def test_it_builds_url_as_expected

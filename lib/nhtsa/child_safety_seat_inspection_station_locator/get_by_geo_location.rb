@@ -11,7 +11,7 @@ module Nhtsa
       end
 
       def url
-         if @filters[:spanish] && @filters[:cpsweek]
+        if @filters[:spanish] && @filters[:cpsweek]
           "#{BASE_URI}#{END_POINT}?lat=#{@latitude}&long=#{@longitude}&miles=#{@radius}#{CPS_WEEK}#{SPANISH}"
         elsif @filters[:spanish]
           "#{BASE_URI}#{END_POINT}?lat=#{@latitude}&long=#{@longitude}&miles=#{@radius}#{SPANISH}"
