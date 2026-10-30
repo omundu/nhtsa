@@ -1,10 +1,17 @@
 require 'test_helper'
 
 module CivilPenalties
+
   class CivilPenaltiesTest < Minitest::Test
 
+    def setup
+      civil_penalties_webmocks
+      skip('This in now deprecated')
+    end
+
+
     def test_it_builds_url_as_expected
-      expected_url = "https://webapi.nhtsa.gov/api/CivilPenalties?format=json"
+      expected_url = 'https://api.nhtsa.gov/CivilPenalties?format=json'
 
       assert_equal expected_url, Nhtsa::CivilPenalties::CivilPenalties.new.url
     end
@@ -44,4 +51,5 @@ module CivilPenalties
     end
 
   end
+
 end

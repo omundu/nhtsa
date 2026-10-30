@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "decoder": [],
+    "filters": null,
+    "isWebApi": true,
+    "messages": [
+      {
+        "errorDetails": "You must provide a modelYear",
+        "errorMessage": "The request was invalid because the required parameters were not provided",
+        "errorName": "Request was invalid",
+        "specificHttpErrorCode": 400
+      }
+    ],
+    "pagination": {
+      "count": 0,
+      "currentUrl": "https://api.nhtsa.gov/vehicles/makes?offset=0&max=20&sort=id&issueType=r",
+      "grailsServerUrl": "https://api.nhtsa.gov",
+      "max": 20,
+      "nextUrl": null,
+      "offset": 0,
+      "order": null,
+      "previousUrl": null,
+      "sort": "id",
+      "total": 0
+    },
+    "status": 400
+  },
+  "results": []
+}

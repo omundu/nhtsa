@@ -96,17 +96,17 @@ module RequestStubs
 
   end
 
-  # Civil Penalties
+  def civil_penalties_webmocks
 
-  # FakeWeb.register_uri(:get, "https://webapi.nhtsa.gov/api/CivilPenalties?format=json",
-  #  :content_type => "application/json",
-  #   :body => File.open(File.expand_path(".", "test/fixtures/civil_penalties/civil_penalties.json")).read
-  # )
+    stub_request(:get, 'https://api.nhtsa.gov/CivilPenalties').
+      with(query: {'odinumber' => 10457576}).
+      to_return(:body => File.open(File.expand_path('.', 'test/fixtures/civil_penalties/civil_penalties.json')).read)
 
-  # FakeWeb.register_uri(:get, "https://webapi.nhtsa.gov/api/CivilPenalties/2012?format=json",
-  #   :content_type => "application/json",
-  #   :body => File.open(File.expand_path(".", "test/fixtures/civil_penalties/civil_penalty_by_year.json")).read
-  # )
+    stub_request(:get, 'https://api.nhtsa.gov/CivilPenalties/2012').
+      with(query: {'odinumber' => 10457576}).
+      to_return(:body => File.open(File.expand_path('.', 'test/fixtures/civil_penalties/civil_penalty_by_year.json')).read)
+
+  end
 
   def inspection_location_webmocks
 
