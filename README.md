@@ -1,6 +1,6 @@
 # NHTSA #
 
-[![Build Status](https://travis-ci.org/omundu/nhtsa.svg?branch=master)](https://travis-ci.org/omundu/nhtsa)
+[![Ruby](https://github.com/omundu/nhtsa/actions/workflows/ruby.yml/badge.svg)](https://github.com/omundu/nhtsa/actions/workflows/ruby.yml)
 
 This is a simple ruby gem to simply allow for easy access to The National Highway Traffic Safety Association dataset.
 
